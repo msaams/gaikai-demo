@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Focus - Bootstrap Admin Dashboard </title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon.png">
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.theme.default.min.css">
+    <link href="./vendor/jqvmap/css/jqvmap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="sk-three-bounce">
+            <div class="sk-child sk-bounce1"></div>
+            <div class="sk-child sk-bounce2"></div>
+            <div class="sk-child sk-bounce3"></div>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header">
+            <a href="home" class="brand-logo">
+                <img class="logo-abbr" src="images/logo.png" alt="">
+                <img class="logo-compact" src="images/logo-text.png" alt="">
+                <img class="brand-title" src="images/logo-text.png" alt="">
+            </a>
+
+            <div class="nav-control">
+                <div class="hamburger">
+                    <span class="line"></span><span class="line"></span><span class="line"></span>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+
+        <!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header">
+            <div class="header-content">
+                <nav class="navbar navbar-expand">
+                    <div class="collapse navbar-collapse justify-content-between">
+                        <div class="header-left">
+                            <div class="search_bar dropdown">
+                                <span class="search_icon p-3 c-pointer" data-toggle="dropdown">
+                                    <i class="mdi mdi-magnify"></i>
+                                </span>
+                                <div class="dropdown-menu p-0 m-0">
+                                    <form>
+                                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <ul class="navbar-nav header-right">
+                            <li class="nav-item dropdown notification_dropdown">
+                                <a class="nav-link" href="#" role="button" data-toggle="dropdown">
+                                    <i class="mdi mdi-bell"></i>
+                                    <div class="pulse-css"></div>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a class="all-notification" href="#">See all notifications <i
+                                            class="ti-arrow-right"></i></a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown header-profile">
+                                <a class="nav-link" href="#" role="button" data-toggle="dropdown">
+                                    <i class="mdi mdi-account"></i>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a href="app-profile.html" class="dropdown-item">
+                                        <i class="icon-user"></i>
+                                        <span class="ml-2">Profile </span>
+                                    </a>
+                                    <a href="email-inbox.html" class="dropdown-item">
+                                        <i class="icon-envelope-open"></i>
+                                        <span class="ml-2">Inbox </span>
+                                    </a>
+                                    <a href="page-login.html" class="dropdown-item">
+                                        <i class="icon-key"></i>
+                                        <span class="ml-2">Logout </span>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+        <div class="quixnav">
+            <div class="quixnav-scroll">
+                <ul class="metismenu" id="menu">
+                    <li class="nav-label first">Main Menu</li>
+                    <li><a href="index.html" aria-expanded="false"><span
+                        class="nav-text">Widget</span></a></li>
+                        <li class="nav-label first">Restaurants</li>
+
+                        <li><a href="demo-wiesbaden.html" aria-expanded="false"><span
+                            class="nav-text">Oishii Wiesbaden</span></a></li>
+                            <li><a href="demo-dortmund.html" aria-expanded="false"><span
+                                class="nav-text">Gourmet Tempel Dortmund</span></a></li>
+                         
+                </ul>
+            </div>
+
+
+        </div>
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
+
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body">
+            <!-- row -->
+            <div class="row">
+            <div class="container-fluid">
+             <div class="row">
+                    <div class=" col-xxl-3 col-xl-3 col-lg-3 col-md-3"></div>
+                    <div class="col-lg-6 col-xl-6 col-xxl-6 col-md-6">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <div class="m-t-10">
+                                    <h4 class="card-title">Customer Feedback</h4>
+                                    <h2 class="mt-3">7</h2>
+                                </div>
+                                <ul class="widget-line-list m-b-15">
+                                    <li class="border-right">43% <br><span class="text-success"><i
+                                                class="ti-hand-point-up"></i> Positive</span></li>
+                                    <li>57% <br><span class="text-danger"><i
+                                                class="ti-hand-point-down"></i>Negative</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3"></div>
+             </div>
+            <div class="row">
+                <div class="col-lg-6 col-xl-6 col-xxl-6 col-md-6">
+                <div class="card">
+                    <div class="card-body p-4">
+                <div class="row">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+                            </li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
+                            
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class='col-lg-6 col-sm-12'><div class='card'><div class='stat-widget-two card-body'><div class='stat-content'><div class='stat-text'>Manuel Quang</div><div class='stat-digit'> <i class='fa fa-star rating'></i>5</div></div><div class='bootstrap-modal'><button type='button' class='btn btn-primary' data-toggle='modal' data-target='#modalmodalManuelQuang'>See Review</button><div class='modal fade' id='modalmodalManuelQuang'><div class='modal-dialog modal-dialog-centered' role='document'><div class='modal-content'><div class='modal-header'><h5 class='modal-title'>2.11.2021</h5><button type='button' class='close' data-dismiss='modal'><span>&times;</span></button></div><div class='modal-body'>他们有很大的空间，无论你什么时候去自助餐，那里总是有东西。即使是当地的烹饪速度也很快，尽管已经很满了。我只能强烈推荐亚运。</div><div class='modal-footer'><button type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button></div></div></div></div></div></div></div></div>
+    <div class='col-lg-6 col-sm-12'><div class='card'><div class='stat-widget-two card-body'><div class='stat-content'><div class='stat-text'>bini bo</div><div class='stat-digit'> <i class='fa fa-star rating'></i>5</div></div><div class='bootstrap-modal'><button type='button' class='btn btn-primary' data-toggle='modal' data-target='#modalmodalbinibo'>See Review</button><div class='modal fade' id='modalmodalbinibo'><div class='modal-dialog modal-dialog-centered' role='document'><div class='modal-content'><div class='modal-header'><h5 class='modal-title'>2.11.2021</h5><button type='button' class='close' data-dismiss='modal'><span>&times;</span></button></div><div class='modal-body'>我们有两个人在这里，1700时我们就在那里。我们受到了亲切的欢迎，然后马上就开始了。太棒了！</div><div class='modal-footer'><button type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button></div></div></div></div></div></div></div></div>
+    <div class='col-lg-6 col-sm-12'><div class='card'><div class='stat-widget-two card-body'><div class='stat-content'><div class='stat-text'>BByjy</div><div class='stat-digit'> <i class='fa fa-star rating'></i>3</div></div><div class='bootstrap-modal'><button type='button' class='btn btn-primary' data-toggle='modal' data-target='#modalmodalBByjy'>See Review</button><div class='modal fade' id='modalmodalBByjy'><div class='modal-dialog modal-dialog-centered' role='document'><div class='modal-content'><div class='modal-header'><h5 class='modal-title'>5.10.2021</h5><button type='button' class='close' data-dismiss='modal'><span>&times;</span></button></div><div class='modal-body'>如果你让食物燃烧，它尝起来很好。否则，自助餐是冷的。这本身就是一个设计精美的环境，不幸的是，当仔细观察时，许多角落和某些地方都很脏。但你应该称之为好的是那些看起来很友好的员工。</div><div class='modal-footer'><button type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button></div></div></div></div></div></div></div></div>
+    <div class='col-lg-6 col-sm-12'><div class='card'><div class='stat-widget-two card-body'><div class='stat-content'><div class='stat-text'>Benjamin D.</div><div class='stat-digit'> <i class='fa fa-star rating'></i>3</div></div><div class='bootstrap-modal'><button type='button' class='btn btn-primary' data-toggle='modal' data-target='#modalmodalBenjaminD.'>See Review</button><div class='modal fade' id='modalmodalBenjaminD.'><div class='modal-dialog modal-dialog-centered' role='document'><div class='modal-content'><div class='modal-header'><h5 class='modal-title'>22.09.2021</h5><button type='button' class='close' data-dismiss='modal'><span>&times;</span></button></div><div class='modal-body'>食物还行。有很多选择。你可以在环境方面工作。就像在服务中一样。卫生设施可以在卫生和设备方面得到适当改善（没有肥皂和毛巾纸可用）。</div><div class='modal-footer'><button type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button></div></div></div></div></div></div></div></div>
+    <div class="p-4"></div>   
+                            </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class='col-lg-6 col-sm-12'><div class='card'><div class='stat-widget-two card-body'><div class='stat-content'><div class='stat-text'>Kat rok</div><div class='stat-digit'> <i class='fa fa-star rating'></i>3</div></div><div class='bootstrap-modal'><button type='button' class='btn btn-primary' data-toggle='modal' data-target='#modalmodalKatrok'>See Review</button><div class='modal fade' id='modalmodalKatrok'><div class='modal-dialog modal-dialog-centered' role='document'><div class='modal-content'><div class='modal-header'><h5 class='modal-title'>02.11.2021</h5><button type='button' class='close' data-dismiss='modal'><span>&times;</span></button></div><div class='modal-body'>不幸的是，宁成了油炸庙宇，却总是为我的口味新鲜准备太少的中国菜。您可以使用的饮料选择不会留下任何愿望。</div><div class='modal-footer'><button type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button></div></div></div></div></div></div></div></div>
+                                    <div class='col-lg-6 col-sm-12'><div class='card'><div class='stat-widget-two card-body'><div class='stat-content'><div class='stat-text'>Erdogan</div><div class='stat-digit'> <i class='fa fa-star rating'></i>5</div></div><div class='bootstrap-modal'><button type='button' class='btn btn-primary' data-toggle='modal' data-target='#modalmodalErdogan'>See Review</button><div class='modal fade' id='modalmodalErdogan'><div class='modal-dialog modal-dialog-centered' role='document'><div class='modal-content'><div class='modal-header'><h5 class='modal-title'>5.9.2021</h5><button type='button' class='close' data-dismiss='modal'><span>&times;</span></button></div><div class='modal-body'>真好吃</div><div class='modal-footer'><button type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button></div></div></div></div></div></div></div></div>
+                                    <div class='col-lg-6 col-sm-12'><div class='card'><div class='stat-widget-two card-body'><div class='stat-content'><div class='stat-text'>Uwe Stenzel</div><div class='stat-digit'> <i class='fa fa-star rating'></i>1</div></div><div class='bootstrap-modal'><button type='button' class='btn btn-primary' data-toggle='modal' data-target='#modalmodalUweStenzel'>See Review</button><div class='modal fade' id='modalmodalUweStenzel'><div class='modal-dialog modal-dialog-centered' role='document'><div class='modal-content'><div class='modal-header'><h5 class='modal-title'>01.09.2021</h5><button type='button' class='close' data-dismiss='modal'><span>&times;</span></button></div><div class='modal-body'>卫生概念零。马桶上没有肥皂。消毒？？在自助餐上，没有餐具被交换或消毒，所以每个人都要处理。客人彼此不尊重，许多客人不戴口罩。我最后一次会在这里。</div><div class='modal-footer'><button type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button></div></div></div></div></div></div></div></div>
+                                    <div class='col-lg-6 col-sm-12'><div class='card'><div class='stat-widget-two card-body'><div class='stat-content'><div class='stat-text'>Carsten Baumann</div><div class='stat-digit'> <i class='fa fa-star rating'></i>3</div></div><div class='bootstrap-modal'><button type='button' class='btn btn-primary' data-toggle='modal' data-target='#modalmodalCarstenBaumann'>See Review</button><div class='modal fade' id='modalmodalCarstenBaumann'><div class='modal-dialog modal-dialog-centered' role='document'><div class='modal-content'><div class='modal-header'><h5 class='modal-title'>5.7.2021</h5><button type='button' class='close' data-dismiss='modal'><span>&times;</span></button></div><div class='modal-body'>食物好，服务好，勤劳。但仅此而已。非常简单和干燥的环境。就在你的餐桌上，盘子里仍然没有食物残渣。它更令人愉快。卫生设施在所有。。。我们不会再回去了。</div><div class='modal-footer'><button type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button></div></div></div></div></div></div></div></div>
+                                                              
+<div class="p-4"></div> 
+                                </div>
+
+                            </div>
+                        </div><a class="carousel-control-prev" href="#carouselExampleIndicators" data-slide="prev"><span class="carousel-control-prev-icon"></span> <span
+                                class="sr-only">Previous</span> </a><a class="carousel-control-next" href="#carouselExampleIndicators" data-slide="next"><span
+                                class="carousel-control-next-icon"></span>
+                            <span class="sr-only">Next</span></a>
+                    </div></div></div>
+             
+               </div></div>
+                
+                    
+                    <div class="col-lg-6 col-xl-6 col-xxl-6 col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Timeline</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="widget-timeline">
+                                    <ul class="timeline">
+                                        <li><div class='timeline-badge success'></div><a class='timeline-panel text-muted' data-toggle='modal' data-target='#modalManuelQuang'><span>2.11.2021</span><h6 class='m-t-5'>Manuel Quang 5<i class='rating fa fa-star'></i></h6></a></li>
+<li><div class='timeline-badge success'></div><a class='timeline-panel text-muted' data-toggle='modal' data-target='#modalbinibo'><span>2.11.2021</span><h6 class='m-t-5'>bini bo 5<i class='rating fa fa-star'></i></h6></a></li>
+<li><div class='timeline-badge warning'></div><a class='timeline-panel text-muted' data-toggle='modal' data-target='#modalKatrok'><span>02.11.2021</span><h6 class='m-t-5'>Kat rok 3<i class='rating fa fa-star'></i></h6></a></li>
+<li><div class='timeline-badge warning'></div><a class='timeline-panel text-muted' data-toggle='modal' data-target='#modalBByjy'><span>5.10.2021</span><h6 class='m-t-5'>BByjy 3<i class='rating fa fa-star'></i></h6></a></li>
+<li><div class='timeline-badge warning'></div><a class='timeline-panel text-muted' data-toggle='modal' data-target='#modalBenjaminD.'><span>22.09.2021</span><h6 class='m-t-5'>Benjamin D. 3<i class='rating fa fa-star'></i></h6></a></li>
+<li><div class='timeline-badge success'></div><a class='timeline-panel text-muted' data-toggle='modal' data-target='#modalErdogan'><span>5.9.2021</span><h6 class='m-t-5'>Erdogan 5<i class='rating fa fa-star'></i></h6></a></li>
+<li><div class='timeline-badge danger'></div><a class='timeline-panel text-muted' data-toggle='modal' data-target='#modalUweStenzel'><span>01.09.2021</span><h6 class='m-t-5'>Uwe Stenzel 1<i class='rating fa fa-star'></i></h6></a></li>
+<li><div class='timeline-badge warning'></div><a class='timeline-panel text-muted' data-toggle='modal' data-target='#modalCarstenBaumann'><span>5.7.2021</span><h6 class='m-t-5'>Carsten Baumann 3<i class='rating fa fa-star'></i></h6></a></li></ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-xl-3 col-xxl-3 col-md-3"></div>
+                    
+                </div>
+
+            </div>
+        </div></div> 
+        <!--**********************************
+            Content body end
+        ***********************************-->
+
+
+        <!--**********************************
+            Footer start
+        ***********************************-->
+        <div class="footer">
+            <div class="copyright">
+                <p>Copyright © Designed &amp; Developed by <a href="#" target="_blank">Quixkit</a> 2019</p>
+                <p>Distributed by <a href="https://themewagon.com/" target="_blank">Themewagon</a></p> 
+            </div>
+        </div>
+        <!--**********************************
+            Footer end
+        ***********************************-->
+
+        <!--**********************************
+           Support ticket button start
+        ***********************************-->
+
+        <!--**********************************
+           Support ticket button end
+        ***********************************-->
+
+
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <!-- Required vendors -->
+    <script src="./vendor/global/global.min.js"></script>
+    <script src="./js/quixnav-init.js"></script>
+    <script src="./js/custom.min.js"></script>
+
+
+    <!-- Vectormap -->
+    <script src="./vendor/raphael/raphael.min.js"></script>
+    <script src="./vendor/morris/morris.min.js"></script>
+
+
+    <script src="./vendor/circle-progress/circle-progress.min.js"></script>
+    <script src="./vendor/chart.js/Chart.bundle.min.js"></script>
+
+    <script src="./vendor/gaugeJS/dist/gauge.min.js"></script>
+
+    <!--  flot-chart js -->
+    <script src="./vendor/flot/jquery.flot.js"></script>
+    <script src="./vendor/flot/jquery.flot.resize.js"></script>
+
+    <!-- Owl Carousel -->
+    <script src="./vendor/owl-carousel/js/owl.carousel.min.js"></script>
+
+    <!-- Counter Up -->
+    <script src="./vendor/jqvmap/js/jquery.vmap.min.js"></script>
+    <script src="./vendor/jqvmap/js/jquery.vmap.usa.js"></script>
+    <script src="./vendor/jquery.counterup/jquery.counterup.min.js"></script>
+
+
+    <script src="./js/dashboard/dashboard-1.js"></script>
+
+</body>
+
+</html>
