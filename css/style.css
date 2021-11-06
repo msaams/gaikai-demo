@@ -67,6 +67,9 @@
 .rating{
   color: #f0a907;
 }
+.rating-text{
+  color: black;
+}
 .gradient_one {
   background-image: linear-gradient(to right, rgba(186, 1, 181, 0.85) 0%, rgba(103, 25, 255, 0.85) 100%); }
 
@@ -4465,7 +4468,8 @@ a.close.disabled {
 .modal-body {
   position: relative;
   flex: 1 1 auto;
-  padding: 1rem; }
+  padding: 1rem; 
+color: black;}
 
 .modal-footer {
   display: flex;
